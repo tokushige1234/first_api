@@ -16,3 +16,11 @@ python manage.py startapp api
 # django rest frameworkのインストール（プロジェクト内で実行）
 pip install djangorestframework
 
+## gitブランチ
+#7. gitリポジトリの初期化
+git init
+#8. 初期コミットの作成
+git add .
+git commit -m "Initial commit"
+#9. 新しいブランチの作成
+git checkout -b new-branch
